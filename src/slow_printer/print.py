@@ -1,4 +1,4 @@
-def print(text):
+def print(text = "", delay = 0.005):
   import time
   import sys
   import string
@@ -12,6 +12,6 @@ def print(text):
       if text.startswith(current+c):
         generated = current+c+''
         break
-      time.sleep(0.005)
+      time.sleep(delay)
   sys.stdout.write("\n")
   sys.stdout.flush()

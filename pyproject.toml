@@ -1,6 +1,6 @@
 [project]
-name = "slow_print"
-version = "0.0.1"
+name = "slow_printer"
+version = "0.0.2"
 authors = [
   { name="MChrisGM", email="mchrisgm@gmail.com" },
 ]
